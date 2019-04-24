@@ -13,11 +13,10 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
-  def brand=(brand)
-    @brand = brand
-    BRANDS << brands
-    binding.pry
+    
+   def genre=(genre)
+      @genre = genre
+      GENRES << genre 
   end
 
 end
