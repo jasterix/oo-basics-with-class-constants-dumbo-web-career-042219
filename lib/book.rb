@@ -12,7 +12,7 @@ GENRES = []
     puts "Flipping the page...wow, you read fast!"
   end
   
-  def genre=(genre)
+  def genre=(genre) # creates the writer for genre and add the logic for the class constant
     @genre =  genre
     GENRES << genre
   end
