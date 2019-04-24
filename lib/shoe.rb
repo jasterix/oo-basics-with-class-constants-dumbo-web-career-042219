@@ -7,17 +7,11 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if BRANDS.include?(brand) != true
+    if BRANDS.include?(brand) != true #() are necessary for the test to pass
       BRANDS << brand
     end
   end
-  
-  # def initialize(brand)
-  #   @brand = brand
-  #   if BRANDS.include?(brand) != true
-  #     BRANDS << brand
-  #   end
-  # end	 
+
 
   def cobble
     self.condition = "new"
